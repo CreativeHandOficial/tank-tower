@@ -112,8 +112,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70350cad-a4e4-4547-bb7b-edd38ddee17d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "FX",
+    "path": "folders/Sprites/FX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBulletEnemy",

@@ -88,8 +88,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"44d1af64-a92f-49d5-a5a5-d4ee61f6b32f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "FX",
+    "path": "folders/Sprites/FX.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFire",

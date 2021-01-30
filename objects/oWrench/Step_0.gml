@@ -1,7 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Wrench Actions
 
-y = lerp(y, _to_move, 0.04);
+y = approach(y, toMove, 0.3);
 
 if (place_meeting(x,y,oCursor) && mouse_check_button_pressed(mb_left)) {
 	instance_destroy();

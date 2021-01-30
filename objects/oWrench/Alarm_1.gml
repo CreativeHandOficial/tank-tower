@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description [CHANGE_OF_VALUE]
 
-_to_move = y - 16;
-alarm[0] = _spd_room;
+//Defines the value to which the wrench should be moved
+toMove = y - 16;
+alarm[SET_VALUE_INITAL] = spdRoom;

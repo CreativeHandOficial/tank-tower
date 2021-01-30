@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 _to_move = 8;
-alarm[1] = _spd_room;
+alarm[1] = spdRoom;

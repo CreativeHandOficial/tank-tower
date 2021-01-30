@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Tank",
+    "path": "folders/Objects/Tank.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBullet",

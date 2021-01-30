@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Utils",
-    "path": "folders/Scripts/Utils.yy",
+    "name": "Macros",
+    "path": "folders/Macros.yy",
   },
   "resourceVersion": "1.0",
-  "name": "loot_drop",
+  "name": "values_macros",
   "tags": [],
   "resourceType": "GMScript",
 }

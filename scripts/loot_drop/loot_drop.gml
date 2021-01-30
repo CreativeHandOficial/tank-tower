@@ -1,13 +1,10 @@
-///	@function loot_drop(perc, obj)
+///	@function loot_drop(percent, item)
 /// @description drop rate item.
 /// @param {real} perc
 /// @param {string} obj
-function loot_drop(argument0, argument1) {
-
+function loot_drop(percent, item) {
 	var _lootdrop = irandom(100);
-	if (_lootdrop <= argument0) {
-		instance_create_layer(x, y, layer, argument1);
+	if (_lootdrop <= percent) {
+		instance_create_layer(x, y, layer, item);
 	}
-
-
 }

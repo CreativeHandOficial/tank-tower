@@ -1,6 +1,6 @@
-/// @description configuracao da posicao
+/// @description position setting
 
-// Posicao init
+// position init
 x = oBaseTank.x;
 y = oBaseTank.y;
 xx = -100;

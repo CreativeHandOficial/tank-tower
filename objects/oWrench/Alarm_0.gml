@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description [SET_VALUE_INITAL]
 
-_to_move = _y;
-alarm[1] = _spd_room;
+// Sets the initial Y value again
+toMove = initialValueY;
+alarm[CHANGE_OF_VALUE] = spdRoom;

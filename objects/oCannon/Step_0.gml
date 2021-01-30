@@ -7,7 +7,6 @@ var shot = mouse_check_button_pressed(mb_left);
 
 if (shot) {
 	bullet = instance_create_layer(round(x - dcos(image_angle) * -70),round(y + dsin(image_angle) * - 60),"Shot", oBullet);
-	//bullet = instance_create_layer(x + lengthdir_x(sprite_width/2, image_angle), y + lengthdir_y(sprite_height/2, image_angle), "Shot", oBullet);
 	effect = instance_create_layer(round(x - dcos(image_angle) * -70),round(y + dsin(image_angle) * - 60),"Effects", oEffecct);
 	effect.direction = image_angle;
 	bullet.image_angle = image_angle;
