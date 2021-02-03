@@ -21,8 +21,8 @@ body = instance_create_layer(x,y,"Instances", oEnemyBody);
 body.inst = id;
 leg = instance_create_layer(x,y,"Instances", oEnemyLeg);
 leg.inst = id;
-perc = 5;
-loot = oWrench;
+perc = 100;
+loot = seqWrench;
 state = stateEnemy.walk;
 alarm[FIRE] = room_speed;
 

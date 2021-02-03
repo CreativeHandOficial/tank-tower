@@ -1,19 +1,17 @@
 /// @description [SPWAN]
 
-_x = choose(0, room_width + 10, room_width);
-initialValueY = choose(0, room_height + 10, room_height);
+// Set the x and y values ​​to spawn the enemy
+var _xx, _yy;
+_xx = choose(0, room_width + 10, room_width);
+_yy = choose(0, room_height + 10, room_height);
 
-if (_x == 0 || _x ==  room_width + 10) {
-	initialValueYy = irandom(room_height);
-	_xx = _x;
-} else if (initialValueY == 0 || initialValueY ==  room_height + 10) {
+if (_xx == 0 || _yy == room_width + 10) {
+	_yy = irandom(room_height);
+	_xx = _xx;
+} else if (_yy == 0 || _yy == room_height + 10) {
 	_xx = irandom(room_width);
-	initialValueYy = initialValueY;
+	_yy = _yy;
 }
 
-irandom(room_width)
-irandom(room_height)
-instance_create_layer(_xx, initialValueYy, "Instances", oEnemy);
-show_debug_message("X" + string(_x));
-show_debug_message("Y" + string(initialValueY));
+instance_create_layer(_xx, _yy, "Instances", oEnemy);
 alarm[SPWAN] = room_speed * 1;
